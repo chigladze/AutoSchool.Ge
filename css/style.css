@@ -1,0 +1,232 @@
+@charset "UTF-8";
+@font-face {
+  font-family: bpg_mrgvlovani_caps;
+  src: url(../fonts/bpg_mrgvlovani_caps.ttf);
+  font-display: swap;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: IcoFont;
+  src: url(../fonts/icofont.ttf);
+  font-display: swap;
+  font-weight: normal;
+}
+
+*, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background-color: #fff;
+  color: #0a0a0a;
+  font-size: 1em;
+  font-family: 'bpg_mrgvlovani_caps', sans-serif !important;
+  overflow-x: hidden;
+}
+
+body a {
+  text-decoration: none !important;
+  font-family: 'bpg_mrgvlovani_caps', sans-serif !important;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6rem !important;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffdd00 !important;
+  border-radius: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent !important;
+  border-radius: 1rem;
+}
+
+.active {
+  color: #ffdd00 !important;
+}
+
+.section-header {
+  color: #19406e;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.section-header::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #19406e;
+}
+
+.btn-brand {
+  color: #19406e;
+  background-color: #ffdd00;
+  border: 1px solid #ffdd00;
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+.btn-brand:hover {
+  background-color: transparent;
+  color: #19406e;
+  border: 1px solid #ffdd00;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider-section {
+  position: relative;
+  top: calc(0px + 114px);
+}
+
+#motivation, #offers, #courses {
+  position: relative;
+  top: calc(0px + 114px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.about-us_box {
+  width: 270px;
+  height: auto;
+  -webkit-box-shadow: 0 0 10px 2px #8d8d8d;
+          box-shadow: 0 0 10px 2px #8d8d8d;
+  border-radius: 10px;
+  color: #19406e;
+  background-color: transparent;
+}
+
+.social-media-icon {
+  background-color: #ffdd00;
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #0a0a0a;
+}
+
+.social-media-icon:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #19406e;
+}
+
+.resp-menu-icon {
+  color: #0a0a0a;
+  background-color: #ffdd00;
+}
+
+#divider {
+  margin-top: 11rem;
+  margin-bottom: 7rem;
+}
+
+.courses_box {
+  width: 350px;
+  max-height: 450px;
+  min-height: 400px;
+  height: 100%;
+  -webkit-box-shadow: 0 0 10px 2px #8d8d8d;
+          box-shadow: 0 0 10px 2px #8d8d8d;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.courses_box .courses-header {
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  background-color: #212529;
+}
+
+.courses_box .courses-price {
+  font-size: 1.5rem;
+  color: #ffdd00;
+  padding: 0 1rem 0 1rem;
+}
+
+.courses_box .courses-btn {
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#counter-section {
+  background-color: #212529;
+  padding: 5rem 0 5rem 0;
+  color: #ffdd00;
+  margin-top: 10rem;
+}
+
+.yearexp::after {
+  content: ' წელი';
+  font-size: 1rem;
+}
+
+footer {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1057%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M875.3987081328371 577.9310104449421L967.8081291833938 515.6000689098637 905.4771876483154 423.1906478593071 813.0677665977587 485.52158939438544z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1270.4738605754762 127.43715095399216L1292.4648572920337 50.74543137021158 1166.431779558084 56.104796087265655z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1017.0712008717485 523.5197635474426L1051.5006833833315 410.90600052137745 904.4574378456833 489.0902810358597z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-23.769130593714976-3.870353440780388L-78.31907430364127 124.64126050380206 50.19253964094118 179.19120421372838 104.74248335086747 50.679590269145905z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M84.49844768446502-48.55758265328367L12.833485731640483 111.99259791246739 165.94186227600784 98.59735067397675z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1137.1268810743093 411.68871401202216L1135.6589557567468 495.78609913200455 1221.2242661942917 413.1566393295848z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M613.7562745756196 540.8757802027309L600.9455878899618 392.8240117309384 493.25018840542793 465.465475908004z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1299.170033566144 414.81347183812994L1334.5434858139567 272.9383040092613 1192.6683179850882 237.56485176144844 1157.2948657372754 379.4400195903171z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M159.53824128564608 457.2709727180053L56.69205566062824 364.66785124063284-35.911065816744184 467.51403686565067 66.93511980827364 560.1171583430231z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M339.86469833042094 124.14020270054056L280.1866415166803 188.13708350267135 344.1835223188111 247.815140316412 403.8615791325517 183.8182595142812z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M320.01549605372304 440.38757434427714L220.92801287710813 341.30009116766223 220.92801287710813 539.475057520892z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M301.92572271329084-30.955556164922918L173.24856622568214 59.14515880309116 263.34928119369624 187.82231529069986 392.0264376813049 97.72160032268579z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M565.7168324228417 631.9682642961766L655.5086578147201 542.176438904298 565.7168324228417 452.3846135124196 475.9250070309632 542.1764389042982z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M349.2429262606637 225.9316444253598L273.24028481731494 362.7363990233877 410.0450394153428 362.73639902338766z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-6.751415334213672 330.5477566644361L51.66797307331571 402.68969329541085 123.80990970429042 344.2703048878814 65.39052129676102 272.12836825690675z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1020.2706994082313 28.029630019455052L928.6365603408865 94.60572906903852 995.21265939047 186.23986813638328 1086.8467984578147 119.66376908679982z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M151.8001294523279 353.308059731188L82.12530309553307 278.5909560697582 7.408199434103267 348.265782426553 77.08302579089809 422.9828860879828z' fill='rgba(254%2c 201%2c 0%2c 0.23)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1057'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer .bg-filter {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(0.6rem);
+          backdrop-filter: blur(0.6rem);
+}
+
+/* Style for Responsive down !!! */
+@media all and (max-width: 551px) {
+  .about-us_responsive {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .courses_box {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .logo img {
+    width: 80px;
+  }
+  .slider-section {
+    top: 85px;
+  }
+  #motivation, #offers, #courses {
+    top: calc(0px + 115px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
